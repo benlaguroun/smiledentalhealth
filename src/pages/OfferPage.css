@@ -1,0 +1,26 @@
+/* OfferPage.css */
+.offer-page {
+    text-align: center;
+  }
+  
+  .offer-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: black;
+  }
+
+  
+  .offer-page p {
+    font-size: 1.25rem;
+    line-height: 1.75;
+    margin-bottom: 2rem;
+    color: black;
+  }
+  
+  .cta-button {
+    background-color: #007bff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+  }
+  

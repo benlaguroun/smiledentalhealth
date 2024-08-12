@@ -1,0 +1,42 @@
+/* Header.css */
+.navbar {
+  transition: all 0.4s;
+  background: transparent;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar.active {
+  background: #fff;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand .logo {
+  height: 40px; /* Adjust the size as needed */
+  margin-right: 350px; /* Space between the logo and menu items */
+}
+
+.navbar-brand,
+.nav-link {
+  color: #fff !important;
+}
+
+.navbar.active .navbar-brand,
+.navbar.active .nav-link {
+  color: #000 !important;
+}
+
+.nav-link {
+  margin-right: 1rem;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}

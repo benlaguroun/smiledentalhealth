@@ -1,0 +1,57 @@
+/* ContactUs.css */
+.contact-section {
+  background-color: #f9f9f9;
+  color: #333;
+  
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #000000;
+}
+
+.contact-form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.contact-form .form-label {
+  color: #333;
+}
+
+.contact-form .form-control {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.contact-form .form-control::placeholder {
+  color: #aaa;
+}
+
+.contact-form .btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.contact-info h4 {
+  color: #333;
+  padding-top: 20px;
+}
+
+.contact-info p {
+  color: #555;
+}
+
+.social-media {
+  margin-top: 2rem;
+}
+

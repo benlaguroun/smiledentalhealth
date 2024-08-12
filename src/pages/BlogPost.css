@@ -1,0 +1,26 @@
+.blog-post-container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.blog-post-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.blog-post-container p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.blog-post-container img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.blog-post-container .fa-icon {
+  margin-right: 10px;
+}

@@ -1,0 +1,63 @@
+/* AdminPanel.css */
+
+.admin-panel {
+  margin-top: 70px;
+  padding: 20px;
+  background-color: #e0f7fa;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .table thead {
+    display: none;
+  }
+
+  .table,
+  .table tbody,
+  .table tr,
+  .table td {
+    display: block;
+    width: 100%;
+  }
+
+  .table tr {
+    margin-bottom: 15px;
+  }
+
+  .table td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+
+  .table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    width: calc(50% - 20px);
+    padding-right: 10px;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .modal-content {
+    margin: 20px;
+  }
+}
+
+/* Add some spacing for the button and the table on small screens */
+@media (max-width: 768px) {
+  .admin-panel .table {
+    margin-top: 10px;
+  }
+}

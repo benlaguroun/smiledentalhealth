@@ -1,0 +1,76 @@
+.general-dentistry {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .gd-header {
+    background: url('../images/OS-1.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .gd-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .gd-header p {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .gd-content {
+    background: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gd-description, .gd-services, .gd-cta {
+    margin-bottom: 40px;
+  }
+  
+  .gd-description h2, .gd-services h2, .gd-cta h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .gd-description p, .gd-services ul, .gd-cta p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .gd-services ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .gd-services li {
+    margin-bottom: 10px;
+  }
+  
+  .gd-cta .btn {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .gd-cta .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .gd-cta .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  

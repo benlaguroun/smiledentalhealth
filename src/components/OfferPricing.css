@@ -1,0 +1,32 @@
+/* OfferPricing.css */
+.offer-section {
+  background-image: url('../images/offerpricing-bg.jpg'); /* Update the path to your background image */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.offer-card {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: transform 0.3s ease;
+  color: #000; /* Text color for readability */
+}
+
+.offer-card:hover {
+  transform: translateY(-0.5rem);
+}
+
+.offer-card .btn-primary {
+  background-color: #007bff;
+  border: none;
+}

@@ -1,0 +1,17 @@
+/* custom.css */
+.hover-shadow {
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+  .card {
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
